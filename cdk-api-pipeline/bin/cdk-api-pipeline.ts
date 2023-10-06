@@ -20,7 +20,7 @@
 //   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 // });
 
-#!/usr/bin/env node
+// #!/usr/bin/env Node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { LambdaStack } from '../lib/lambda-stack';
