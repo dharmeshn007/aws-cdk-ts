@@ -88,7 +88,7 @@ export class PipelineStack extends Stack {
               output: sourceOutput,
               owner: "dharmeshn007",
               repo: "aws-cdk-ts",
-              oauthToken: SecretValue.plainText(props.githubToken),
+              oauthToken: SecretValue.secretsManager("aws-cdk"),
               trigger: codepipeline_actions.GitHubTrigger.WEBHOOK,
             }),
           ],
